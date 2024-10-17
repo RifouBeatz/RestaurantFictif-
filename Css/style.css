@@ -1,0 +1,18 @@
+
+.hero {
+    background-image: url('https://i.pinimg.com/736x/3a/23/ae/3a23ae347343b20ffddc9cdcda9af8dc.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.menu-item {
+    text-align: center;
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Pelican </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Pelican</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">À propos de nous</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="text-center">
+        <h1>Bienvenue au Restaurant Le Pelican</h1>
+        <a href="#menu" class="btn btn-primary btn-lg">Découvrez notre Menu</a>
+    </div>
+</section>
+
+<section id="menu" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Notre Menu</h2>
+        <div class="row">
+            
+            <div class="col-md-4 menu-item">
+                <img src="images/Burger-New-York.jpg" alt="Plat 1" class="img-fluid">
+                <h3>Plat 1</h3>
+                <p>Burger New York</p>
+                <p><strong>Prix : 15€</strong></p>
+            </div>
+            <div class="col-md-4 menu-item">
+                <img src="images/tom-yum-goong-2253171_1920-min-1200x800.jpg" alt="Plat 2" class="img-fluid">
+                <h3>Plat 2</h3>
+                <p>Soupe Thaïlandais</p>
+                <p><strong>Prix : 20€</strong></p>
+            </div>
+            <div class="col-md-4 menu-item">
+                <img src="images/iStock-1448377484.jpg" alt="Plat 3" class="img-fluid">
+                <h3>Plat 3</h3>
+                <p>brochette de viande</p>
+                <p><strong>Prix : 18€</strong></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <img src="images/HTB1mXgGKVXXXXbdXpXXq6xXFXXXh.jpg_640x640Q90.jpg_.webp.avif" alt="À propos de nous" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <h2>À propos de nous</h2>
+                <p>Notre restaurant offre une expérience culinaire unique avec des plats préparés à partir d'ingrédients frais et locaux. Nous nous engageons à fournir un service exceptionnel dans une ambiance chaleureuse.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Contactez-nous</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Nom</label>
+                    <input type="text" id="name" class="form-control" required placeholder="Votre nom">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-control" required placeholder="Votre email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" rows="4" class="form-control" required placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </div>
+</section>
+
+<footer class="text-center mt-5">
+    <p>&copy; 2024 Le Pelican. Tous droits réservés.</p>
+    <a href="#" aria-label='Facebook'><i class='fab fa-facebook'></i></a> 
+    |
+    <a href="#" aria-label='Twitter'><i class='fab fa-twitter'></i></a> 
+    |
+    <a href="#" aria-label='Instagram'><i class='fab fa-instagram'></i></a> 
+</footer>
+
+<script src='https://code.jquery.com/jquery-3.5.1.slim.min.js'></script> 
+<script src='https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js'></script> 
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js'></script>
+
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' />
+
+</body>
+</html>
